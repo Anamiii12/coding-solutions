@@ -84,7 +84,7 @@ Since $6 = 6$, $P$ and $Q$ gets a same rank (TIE).
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-13T11:54:50.468Z  
+**Submitted:** 2026-10-13T11:54:58.526Z  
 
 ```java
 import java.util.*;
