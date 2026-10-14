@@ -63,7 +63,7 @@ Chef can buy $3$ blue pens for a cost of $30$.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T14:53:47.237Z  
+**Submitted:** 2026-10-14T14:53:56.672Z  
 
 ```java
 import java.util.*;
@@ -80,7 +80,7 @@ class Codechef
 		int B =sc.nextInt();
 	
 	int op1 = 3*A;
-	int op2 = A+b;
+	int op2 = A+B;
 	System.out.println(Math.min(op1,op2));
 		}
 		
