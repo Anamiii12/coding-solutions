@@ -12,7 +12,7 @@ class Codechef
 		int B =sc.nextInt();
 	
 	int op1 = 3*A;
-	int op2 = A+b;
+	int op2 = A+B;
 	System.out.println(Math.min(op1,op2));
 		}
 		
