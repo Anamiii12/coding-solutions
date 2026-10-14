@@ -32,7 +32,7 @@ Explanation: "gr" is not present in the string "GeeksForGeeks" as substring.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T19:00:51.055Z  
+**Submitted:** 2026-10-14T19:01:01.093Z  
 
 ```java
 class Solution {
