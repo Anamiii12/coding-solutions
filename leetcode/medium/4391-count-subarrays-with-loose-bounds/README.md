@@ -47,8 +47,8 @@ The loose-bound subarrays are `[1]`, `[1]`, and `[1, 1]`. The minimum value in t
 
 **Language:** Java  
 **Runtime:** 7 ms (beats 100.00%)  
-**Memory:** 196.3 MB (beats 100.00%)  
-**Submitted:** 2026-10-24T15:47:20.945Z  
+**Memory:** 195.7 MB (beats 100.00%)  
+**Submitted:** 2026-10-24T15:50:00.114Z  
 
 ```java
 class Solution {
