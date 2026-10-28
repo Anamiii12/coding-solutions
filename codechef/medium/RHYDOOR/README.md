@@ -66,7 +66,7 @@ BBBBAAAAABBBBBBB
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:31:16.605Z  
+**Submitted:** 2026-10-28T15:48:29.204Z  
 
 ```java
 import java.util.*;
@@ -78,6 +78,34 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int T =sc.nextInt();
+		while(T>0){
+		    int l= sc.nextInt();
+		String s =sc.next();
+		
+		int count =0;
+		int streak =0;
+		char prev=' ';
+		for(int i=0;i<l;i++){
+		   char ch =s.charAt(i);
+		   if(ch==prev){
+		       streak++;
+		   }
+		   else{
+		       prev =ch;
+		       streak =1;
+		   }
+		   if(streak ==3){
+		       count++;
+		       streak=0;
+		       prev=' ';
+		   }
+		    }
+		    System.out.println(count);
+		    T--;
+		}
+	
 
 	}
 }
