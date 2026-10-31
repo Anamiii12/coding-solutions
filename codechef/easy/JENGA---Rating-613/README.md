@@ -60,7 +60,7 @@ YES
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-31T14:39:36.447Z  
+**Submitted:** 2026-10-31T14:40:57.408Z  
 
 ```java
 import java.util.*;
@@ -80,6 +80,7 @@ class Codechef
 		    if(N<=X){
 		        System.out.println("yes");
 		    }
+		    else if(X=N+1)
 		    else{
 		        System.out.println("no");
 		    }
