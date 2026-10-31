@@ -60,7 +60,7 @@ YES
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-31T14:40:57.408Z  
+**Submitted:** 2026-10-31T14:43:35.130Z  
 
 ```java
 import java.util.*;
@@ -77,12 +77,12 @@ class Codechef
 		while(T>0){
 		    int N =sc.nextInt();
 		    int X=sc.nextInt();
-		    if(N<=X){
-		        System.out.println("yes");
+		    if(X % N==0){
+		        System.out.println("YES");
 		    }
-		    else if(X=N+1)
+		  
 		    else{
-		        System.out.println("no");
+		        System.out.println("NO");
 		    }
 		    
 		    
