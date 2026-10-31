@@ -15,6 +15,7 @@ class Codechef
 		    if(N<=X){
 		        System.out.println("yes");
 		    }
+		    else if(X=N+1)
 		    else{
 		        System.out.println("no");
 		    }
