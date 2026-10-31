@@ -12,12 +12,12 @@ class Codechef
 		while(T>0){
 		    int N =sc.nextInt();
 		    int X=sc.nextInt();
-		    if(N<=X){
-		        System.out.println("yes");
+		    if(X % N==0){
+		        System.out.println("YES");
 		    }
-		    else if(X=N+1)
+		  
 		    else{
-		        System.out.println("no");
+		        System.out.println("NO");
 		    }
 		    
 		    
