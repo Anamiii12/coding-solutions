@@ -17,8 +17,7 @@ class Codechef
 		if(C==A+B){
 		System.out.println("YES");}
 		else{
-		    System.out.println("No");
+		    System.out.println("NO");
 		}
 		T--;
-	}
-}
+	}}}
