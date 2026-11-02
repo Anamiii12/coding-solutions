@@ -52,7 +52,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T16:16:57.767Z  
+**Submitted:** 2026-11-02T16:16:26.062Z  
 
 ```java
 import java.util.*;
@@ -74,10 +74,11 @@ class Codechef
 		if(C==A+B){
 		System.out.println("YES");}
 		else{
-		    System.out.println("NO");
+		    System.out.println("No");
 		}
 		T--;
-	}}}
+	}
+}
 
 ```
 
