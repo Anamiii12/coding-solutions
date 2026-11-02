@@ -52,7 +52,7 @@ NO
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-02T16:13:16.783Z  
+**Submitted:** 2026-11-02T16:16:57.767Z  
 
 ```java
 import java.util.*;
@@ -64,10 +64,20 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		Scanner sc = new Scanner(System.in);
+		int T =sc.nextInt();
+		while(T>0){
 		
-
-	}
-}
+		int A =sc.nextInt();
+		int B =sc.nextInt();
+		int C = sc.nextInt();
+		if(C==A+B){
+		System.out.println("YES");}
+		else{
+		    System.out.println("NO");
+		}
+		T--;
+	}}}
 
 ```
 
