@@ -52,7 +52,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-10T13:09:55.223Z  
+**Submitted:** 2026-11-10T13:10:48.225Z  
 
 ```java
 import java.util.*;
@@ -70,10 +70,10 @@ class Codechef
 		    int A = sc.nextInt();
 		    int B = sc.nextInt();
 		    int C = sc.nextInt();
-		    if(A>B && A>C){
+		    if(A>=B && A>=C){
 		        System.out.println(A);
 		    }
-		    else if(B>A && B>C){
+		    else if(B>=A && B>=C){
 		        System.out.println(B);
 		    }
 		    else{
