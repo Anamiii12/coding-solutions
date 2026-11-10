@@ -13,10 +13,10 @@ class Codechef
 		    int A = sc.nextInt();
 		    int B = sc.nextInt();
 		    int C = sc.nextInt();
-		    if(A>B && A>C){
+		    if(A>=B && A>=C){
 		        System.out.println(A);
 		    }
-		    else if(B>A && B>C){
+		    else if(B>=A && B>=C){
 		        System.out.println(B);
 		    }
 		    else{
